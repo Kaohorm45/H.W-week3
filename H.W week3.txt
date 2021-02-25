@@ -1,0 +1,36 @@
+static void Main(string[] args)
+        {
+            long code,A,B,C,D,E,F;
+            code = long.Parse(Console.ReadLine());
+            A = long.Parse(Console.ReadLine());
+            B = long.Parse(Console.ReadLine());
+            C = long.Parse(Console.ReadLine());
+            D = long.Parse(Console.ReadLine());
+            E = long.Parse(Console.ReadLine());
+            F = long.Parse(Console.ReadLine());
+            Console.Write("Input your code: ");
+            string CIA, FBI, NSA ,codeName;
+            codeName = Console.ReadLine();
+            Console.Write("Input your codename: ");
+            if(codeName == "CIA")
+            {
+                code = A / 3;
+                B != 1 && B != 3 && B != 5
+                D > 6 && D < 8
+               Console.WriteLine("Your codename is CIA"  );
+            }
+            else if (codeName == "FBI")
+            {
+                F>=4 && F<=7
+                code = C / 2;
+                
+               Console.WriteLine("Your codename is FBI");
+            }
+            else if (codeName == "NSA")
+            {
+                code = C / 3;
+               Console.WriteLine("Your codename is NSA");
+            }
+            else
+            {
+                Console.WriteLine("Your code error");
